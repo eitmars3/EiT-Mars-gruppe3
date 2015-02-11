@@ -27,10 +27,12 @@
 			- (((Mikroorganismer vokser bedre på overflater enn i væske)))
 		- Hva kom først: protein eller nukleinsyre?
 
-2. Hvordan lete etter liv?
+2. Hvordan og hvor skal man lete etter liv?
 
 	2.1 Nåværende ekspedisjoner: Curiosity i hovedsak
 
+		- Faktaspalte om Curiosity m/bilde osv
+			- Hvorfor alltid seks hjul?
 		- Ferden til Mars m/landing
 		- Samarbeid med satelitt (kommunikasjon)
 		- Styring av roveren
