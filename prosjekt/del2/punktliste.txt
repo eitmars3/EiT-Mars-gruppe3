@@ -1,0 +1,46 @@
+1 Biologi
+
+	1.1 Hva er liv?
+
+		- Kriterier
+			1. vekst
+			2. stoffskifte
+			3. reproduksjon (arvestoff)
+			4. bevegelse
+			5. utvikling (evolusjon, unøyaktighet i reproduksjon)
+			6. entropi (cellemembran)
+		- Definisjon
+			- kybernetiker: selvregulerende organisme
+			- Carl Sagan: system i stand til å gjennomgå evolusjonistisk utvikling
+			- G.F. Joyce: kjemisk system som underretter seg Darwinistisk evolusjon
+			- C.P. McKay: materialsystem i stand til å underrette seg Darwinistisk evolusjon
+
+	1.2 Hvordan kan liv oppstå?
+
+		- Organisk suppe/organisk pizza
+			- Organisk suppe
+				- Atmosfære var tidligere reduserende, ville kunne skape organiske forbindelser
+				- 1953: Aminosyrer og andre organiske forbindelser skapt i primitiv organisk suppe (gass)
+				- Umulig for lipiddannelse i organisk suppe (cellemembraner består av lipider)
+			- Organisk pizza
+				- Termodynamikk: Binding gir mindre entropi, pizza gir da mindre bevegelsesfrihet enn suppe
+			- (((Mikroorganismer vokser bedre på overflater enn i væske)))
+		- Hva kom først: protein eller nukleinsyre?
+
+2. Hvordan lete etter liv?
+
+	2.1 Nåværende ekspedisjoner: Curiosity i hovedsak
+
+		- Ferden til Mars m/landing
+		- Samarbeid med satelitt (kommunikasjon)
+		- Styring av roveren
+		- Hva leter vi etter?
+			- Organiske forbindelser
+				- Byggesteiner for liv
+				- 
+			- Andre tegn til liv
+				- Tegn til at liv har eksistert/har vært tilstede
+					- Kan man registrere livets nervær, men ikke livet i seg selv?
+		- Utstyr (for å lete etter liv)
+		- Oppdagelser
+		- Plan videre
