@@ -1,4 +1,4 @@
-1 Biologi
+﻿1 Biologi
 
 	1.1 Hva er liv?
 
@@ -35,14 +35,18 @@
 			- Hvorfor alltid seks hjul?
 		- Ferden til Mars m/landing
 		- Samarbeid med satelitt (kommunikasjon)
+		- Datamaskiner og stråling (beskyttelse)
 		- Styring av roveren
 		- Hva leter vi etter?
 			- Organiske forbindelser
 				- Byggesteiner for liv
-				- 
+				- Hydrokrboner osv
 			- Andre tegn til liv
 				- Tegn til at liv har eksistert/har vært tilstede
 					- Kan man registrere livets nervær, men ikke livet i seg selv?
 		- Utstyr (for å lete etter liv)
+			- For å finne liv
+			- For geologi
 		- Oppdagelser
+			- Det har vært flytende vann der
 		- Plan videre
