@@ -28,3 +28,8 @@ https://www.quantamagazine.org/20140122-a-new-physics-theory-of-life/
 - Erwin Schrödinger: Liv har lav entropi, men gir omgivelsene høy entropi (What Is Life (1944))
 - Jarzynski og Crooks: entropi til termodynamisk prosess = sannsynligheten for at atomene går mot termisk likevekt / (delt på) sannsynligheten for det motsatte
 - Selvreplisering er en måte å utstråle mye energi.
+- Ikke-levende ting er også observert å selfreplisere: bl.a. turbulente virvler.
+- Skillet mellom levende og dødt blir uklart med denne teorien.
+
+http://www.theguardian.com/science/2014/jun/20/game-theory-life-qanta-magazine
+- 50 år gammel spillteori kan forklare hvordan gener er distrubuert i en populasjon.
