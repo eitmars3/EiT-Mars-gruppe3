@@ -48,3 +48,5 @@ Further:
 	-Radiation handlings
 -Communication and control + orbiter for data transfer
 -Tools for search for ET life specifics 
+
+martin er feit
