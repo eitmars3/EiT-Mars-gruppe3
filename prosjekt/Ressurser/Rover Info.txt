@@ -47,4 +47,4 @@ Further:
 -Software
 	-Radiation handlings
 -Communication and control + orbiter for data transfer
--Touols for search for ET life specifics 
+-Tools for search for ET life specifics 
