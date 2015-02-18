@@ -1,0 +1,50 @@
+Mars Rover
+Fact-finding mission
+
+Resources:
+-Grand Summary: NASA press kit http://www.jpl.nasa.gov/news/press_kits/MSLLaunch.pdf 
+-Brief: http://www.jpl.nasa.gov/news/fact_sheets/mars03rovers.pdf 
+-ExoMars (ESA) 2018: http://exploration.esa.int/mars/ 
+-“Chinese Mars Rover” 2020: http://www.spacedaily.com/reports/China_plans_to_land_rover_on_Mars_by_2020_999.html
+-Nasa 2020 mission: http://www.jpl.nasa.gov/missions/mars-2020
+-Curiousity Mission + overview Scient. Article: http://link.springer.com/article/10.1007/s11214-012-9892-2 
+http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=8785497&fileId=S1473550412000328 
+
+Gear:
+-Cameras
+Navigation cameras “stereoscopic 3D imagery”
+Hazard avoidance cameras
+MAHLI for Microscopic images 
+Mars descent imager (landing cam)
+Mast cam
+
+Spectroscopy + Labs
+-CHEMCAM Spectroscopy (chemistry imaging: two pieces of gear, one gives elemental compositions of rock and soil, the other provides pictures of sampling area). Composed of LIBS (analysis) and RIM (pics)
+	-http://link.springer.com/article/10.1007/s11214-012-9912-2 
+	-http://www.sciencedirect.com/science/article/pii/S0584854711000632
+	-http://www.sciencedirect.com/science/article/pii/S0584854712000043 (LIBS)
+-REMS Environment  monitoring (humidity, pressure, temperature, wind speed etc)
+-APXS: X-ray spectrometer: irridates samples with alpha particles, maps spectra of xrays for determining elemental composition of samples/relative abundances of materials 
+-“CheMin” chemistry and minerology spectrometer: pulverizes samples and blasts them with xrays to determine crystal structures and therefore the material being examined
+	-http://www.sciencemag.org/content/341/6153/1238932.short (Minerology)
+-Sample Analysis at Mars (SAM) laboratory, performs precision measurements of gases in the atmosphere:
+	-QMS mass spectrometer (determines mass?)
+	-Gas chromatograph (separating and analyzing compositions of compounds)
+	-Laser spectrometer 
+		-http://www.sciencemag.org/content/341/6143/263.short 
+		-http://www.sciencemag.org/content/341/6153/1238937.short 
+		-http://www.lpi.usra.edu/meetings/lpsc2013/eposter/1366.pdf 
+-RAD radiation assessment detector 
+	-http://www.sciencemag.org/content/343/6169/1244797.short 
+-DAN Dynamic Albedo of Neutrons: Measures hydrogen/water
+
+Mechanics
+-Robot arm
+-Dust removal tool
+
+Further:
+-Transport/Mechanical build
+-Software
+	-Radiation handlings
+-Communication and control + orbiter for data transfer
+-Tools for search for ET life specifics 
