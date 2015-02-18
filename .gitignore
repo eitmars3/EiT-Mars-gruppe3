@@ -334,3 +334,16 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+
+#############
+## Latex
+#############
+
+*.aux
+*.log
+*.maf
+*.mtc
+*.mtc0
+*.pdf
+*.spl
+*.gz
