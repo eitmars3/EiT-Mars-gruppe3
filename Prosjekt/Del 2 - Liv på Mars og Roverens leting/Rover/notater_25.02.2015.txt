@@ -1,0 +1,51 @@
+Teoristoff (kilder)
+
+
+Strålingsmiljø
+
+- Påvirkes i stor grad direkte av Solas utstråling pga svakt magnetfelt og tynn atmosfære.
+- Mars utsettes også for svak og jevn stråling fra verdensrommet.
+- Målt av Curiosity
+  - 0.67 millisievert i gjennomsnitt per dag på Mars.
+  - 1.8 millisievert/dag inne i romskipet under reisa til Mars.
+- Kosmisk stråling
+  - Elektromagnetisme
+	- 99% atomkjerner
+	  - 90% hydrogenkjerner
+		- 9% heliumkjerner (alfastråling)
+		- 1% tyngre kjerner (HZE-ioner)
+	- 1% elektroner (betastråling)
+
+Kilde: http://www.swri.org/9what/releases/2013/mars-measurements.htm
+       http://en.wikipedia.org/wiki/Cosmic_ray
+
+CheMin (Chemistry and Mineralogy)
+
+- Plasserer prøver i form av pulver i tynne prøveskåler.
+- Brukes til å gjenkjenne mineraler.
+- Kan ta 74 rene prøver, men under 5% sannsynlighet for krysskontaminering ved gjenbruk.
+- Pulverdiffraksjon basert på røntgenstråling.
+- Røntgenstråling optimalt for å oppdage lette atomer.
+- CCD (kamera) som opererer i røntgenområdet fanger opp målingene.
+- Prøvene tar ca 10 timer og gjøres bare om natta? Pga stråling eller?
+
+Kilde: http://en.wikipedia.org/wiki/CheMin
+       http://en.wikipedia.org/wiki/Powder_diffraction
+
+Kameraer
+
+- 17 kameraer totalt
+- Mange brukes til navigasjon og mot kollisjoner.
+- CheMin regnes som et av dem.
+- ChemCam (Chemistry and Camera complex)
+  - 1067nm-laser skyter pulser mot stein opptil 7m unna.
+  - Litt av stoffet (størrelsesorden nano- til picogram) blir til plasma (over 100 000 K).
+	- Pga termisk likevekt kan temperaturen falle til 5 000 – 20 000 K når målingene inntreffer (hvertfall sånn på Jorda).
+	- Plasmaen eksiterer elektromagnetisme.
+	- Kamera registrerer bølgelengdener for å gjenkjenne grunnstoffer.
+- Mars Hand Lens Imager (MAHLI)
+  - Kamera på robotarm fungerer som mikroskop.
+
+Kilde: http://en.wikipedia.org/wiki/Curiosity_%28rover%29
+       http://en.wikipedia.org/wiki/Chemistry_and_Camera_complex
+			 http://en.wikipedia.org/wiki/Laser-induced_breakdown_spectroscopy
