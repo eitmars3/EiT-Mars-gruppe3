@@ -1,0 +1,36 @@
+1. Innsjekk
+
+Jonas:
+Sleit med å sove. Kanskje noe med døgnrytmen?
+
+Ingelin:
+Også trøtt. Spennende uke. Kråssfitt-konkurranse på fredag, mange som blir med på det.
+
+Karsten:
+Vært i Danmark, besøkt venner. Sovi et par timer og takler ikke det. Har spilt Geo-kaking.
+
+Anna:
+Dag 15 uten røyk. Løpt 7km på søndag for første gang. Flott uten røyk. Også trøtt.
+
+Martin:
+Har blitt frisk. Får kompis på besøk. Mye å rekke.
+
+Simen:
+Nesten blitt frisk. Jobba hardt denne uka for å ta igjen. Hadde ikke svart "takk" for "god bedring".
+
+
+2. Mål/planer for dagen
+
+- Git for alle
+- Rydde litt i rapportstrukturen
+- 6 forskjellige undertemaer
+- Del 1: Anna
+- Del 2: Jonas, Karsten, Ingelin og Martin
+- Del 3: Simen
+
+3. Kan bruke mer spesialkompetanse?
+
+- Kryptografi: kommunikasjon/dna
+- Kunstig intelligens: lengre ferder der regtek er vanskelig
+- Påkjenninger på struktur
+- Strålingsfysikk?
