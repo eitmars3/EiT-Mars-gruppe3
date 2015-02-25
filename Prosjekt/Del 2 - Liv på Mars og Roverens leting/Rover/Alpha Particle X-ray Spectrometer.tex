@@ -13,10 +13,6 @@
 \usepackage[font=small,labelfont=bf]{caption}		
 \usepackage{minitoc}
 
-\catcode`æ=\active\defæ{\ae}	\catcode`Æ=\active\defÆ{\AE}
-\catcode`ø=\active\defø{\o}	\catcode`Ø=\active\defØ{\OO}
-\catcode`å=\active\defå{\aa}	\catcode`Å=\active\defÅ{\AA}
-
 \makeatletter
 \def\ps@pprintTitle{%
   \let\@oddhead\@empty
@@ -66,12 +62,46 @@ Dokument om instrumenter på Curiosity
 APXS er et spektrometer som sitter på Curiositys robotarm.
 Som sine forfølgere på alle tidligere rovere brukes dette spektrometeret til å identifisere kjemiske elementer i stein og jord.
 
+De fleste emelentene som undersøkes er mineraldannende stoff som natrium, magnesium, aluminium, silisium, calsium, jern og svovel.
+Ellers kan APXS også oppdage spor av viktige elementer som inngår i saltdannelser; svovel, klor og brom.
+Disse kan tyde på interaksjoner med vann i fortiden.
+
+Etter at APXS har sett på prøvene tar Curiosity videre valg om hvordan typer testen den skal foreta seg videre.
+Informasjonen fra APXS sine prøver brukes også til å kartlegge hvordan steinformasjonene i områdene nær roveren kan ha utviklet seg.
+
+Som kilde til alfapartikler og røntgenstråling brukes det radioaktive stoffet curium (Cm$^{244}$).
+Dette har en halveringstid på 18.1 år, noe som passer godt med langvarige oppdrag.
+Selv etter over syv år vil man ha en kilde uten nevneverdig lavere aktivitet.
+
+Etter at roverene Spirit og Opportunity bruke APXS ble teknologien videreutviklet, og Curiosity har nå blant annet muligheten til å ta raskere og klarere målinger samt jobbe på dagtid.
+Målingene kan tas raskere og klarere av to grunner.
+Den ene er at Curiositys APXS kan ta målinger betydelig nærmere prøven enn det forgjengerne kunne.
+Ellers har Curiosity og omtrent dobbelt så stor menge curium med seg, som øker intensiteten av strålingen.
+Årsaken til at APXS bare kunne brukes på nattestid hos Spirit og Opportunity var at instrumentet krever en betraktelig lavere temperatur enn det er på overflaten av Mars på dagtid.
+Dette er løst ved å installere en elektrisk kjøler basert på fastfaseteknologi.
+
+Andre forbedringer som er gjort siden Spirit og Opportunity er blant annet programvaren som styrer hvor nære Curiositys APXS kan flyttes prøvene.
+
+Teorien bak APXS bygger på kjerne- og strålingsfysikk.
+Når et atom blir truffet av stråing, i form av f.eks. fotoner, alfapartikler, betapartikler og gammapartikler, eksiteres dette.
+Det betyr at elektoner som er bundet til kjernen løftes til et høyere energinivå eller frigis.
+Deretter vil et nytt elektron oppta plassen til det gamle, og atomet vil gi fra seg stråling.
+Strålingen som utgis ved eksitering fra alfapartikler består av fotoner med en energi over 5-10 k$eV$; altså røntgenstråling.
+
+Atomer med små kjerner vil ikke slippe ut fotoner med nok energi til å gi røntgenstråling.
+Det fører til at for eksempel oksygen vanligvis ikke kan oppdages med røntgen.
+Dette er et problem dersom man ønsker å bruke APXS til å oppdage for eksempel vann i mineraler på Mars' overflate.
+En metode som kalles "scatter peak method" har blitt utviklet til å likevel kunne finne opp til 20\% vann i slike mineraler.
+Dette ble blant annet gjort med salte jordprøver tatt av Spirit i Gusevkrateret.
+
+Opp gjennom historien har APXS gitt mye informasjon om forholdene og sammensetningen av mineralene på Mars.
+Dette er nok en av grunnene til at det fortsatt jobbes med å utvikle forbedringer av instrumentet, og at det har vært med på samtlige rovere sendt til den røde planeten.
 
 \section*{Kilder}
 
 \begin{thebibliography}{99}	% Denne referanselisten kan ikke ha flere enn 99 referanser.
 	\bibitem{Exoboken}
-		Kjetill {\O}degaard
+		Kjetill Ødegaard
 		\emph{Exobiology: A hitch-hiker's guide to alien life}
 		Institutt for bioteknologi,
 		NTNU,
