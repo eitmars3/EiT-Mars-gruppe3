@@ -56,8 +56,8 @@ Andre instrumenter
 - MAHLI
 - MARDI
 - SAM
-- DAN
+- DAN (ser etter hydrogenatomer)
 - APXS
-- RAD
+- RAD (måler stråling)
 - REMS
 - MEDLI (i varmeskjoldet)
