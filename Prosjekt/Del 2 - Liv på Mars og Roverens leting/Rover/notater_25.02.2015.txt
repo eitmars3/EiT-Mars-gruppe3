@@ -15,9 +15,11 @@ Strålingsmiljø
 		- 9% heliumkjerner (alfastråling)
 		- 1% tyngre kjerner (HZE-ioner)
 	- 1% elektroner (betastråling)
+- 180 dagers reise til Mars, 500 dagers opphold og 180 dagers reise tilbake vil ifølge Radiation Assessment Detector (RAD) ombord i Curiosity by på 1,01 sivert, noe som øker risikoen for kreft med ca 5%.
 
 Kilde: http://www.swri.org/9what/releases/2013/mars-measurements.htm
        http://en.wikipedia.org/wiki/Cosmic_ray
+			 http://www.space.com/23875-mars-radiation-life-manned-mission.html
 
 CheMin (Chemistry and Mineralogy)
 
@@ -49,3 +51,13 @@ Kameraer
 Kilde: http://en.wikipedia.org/wiki/Curiosity_%28rover%29
        http://en.wikipedia.org/wiki/Chemistry_and_Camera_complex
 			 http://en.wikipedia.org/wiki/Laser-induced_breakdown_spectroscopy
+
+Andre instrumenter
+- MAHLI
+- MARDI
+- SAM
+- DAN
+- APXS
+- RAD
+- REMS
+- MEDLI (i varmeskjoldet)
