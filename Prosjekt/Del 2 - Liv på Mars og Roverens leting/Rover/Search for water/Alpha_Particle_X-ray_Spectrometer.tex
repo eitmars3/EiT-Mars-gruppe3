@@ -1,63 +1,3 @@
-\documentclass[5p]{elsarticle}
-\journal{Veileder}	
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc} 				
-\usepackage[norsk]{babel}				
-\usepackage{graphicx}       				
-\usepackage{amsmath,amssymb} 				
-\usepackage{siunitx}					
-	\sisetup{exponent-product = \cdot}      	
- 	\sisetup{output-decimal-marker  =  {,}} 	
- 	\sisetup{separate-uncertainty = true}   	
-\usepackage{booktabs}                     		
-\usepackage[font=small,labelfont=bf]{caption}		
-\usepackage{minitoc}
-
-\makeatletter
-\def\ps@pprintTitle{%
-  \let\@oddhead\@empty
-  \let\@evenhead\@empty
-  \let\@oddfoot\@empty
-  \let\@evenfoot\@oddfoot
-}
-\makeatother
-
-\makeatletter
-\setlength{\@fptop}{0pt}
-\makeatother
-
-\renewenvironment{abstract}{\global\setbox\absbox=\vbox\bgroup
-\hsize=\textwidth\def\baselinestretch{1}%
-\noindent\unskip\textbf{Introduction}
-\par\medskip\noindent\unskip\ignorespaces}
-{\egroup}
-
-
-
-\setcounter{totalnumber}{5}
-\renewcommand{\textfraction}{0.05}
-\renewcommand{\topfraction}{0.95}
-\renewcommand{\bottomfraction}{0.95}
-\renewcommand{\floatpagefraction}{0.35}
-
-
-\begin{document}
-
-\begin{frontmatter}
-
-
-\title{Instruments}
-
-\author[]{Ingelin Garmann, Simen L. Hegge, Karten Olav Kjensmo, \\ Jonas Sandøy Misund, Martin Nordal \& Anna Solveig Julia Testani\`{e}re}
-\address{Norges Teknisk-Naturvitenskapelige Universitet, N-7491 Trondheim, Norway}
-
-\begin{abstract}
-Document on instruments on the Mars rover Curiosity
-\end{abstract}
-
-\end{frontmatter}
-
-\section*{Instruments}
 \subsection*{Alpha Particle X-ray Spectrometer (APXS)}
 The APXS in a spectrometer sitting on Curiosity's robot arm.
 As it's ancestors on the previous rovers the spectrometer is used to identify chemical elements in rock and soil on the Martian surface.
@@ -66,12 +6,15 @@ Most of the elements examined are mineral forming, like sodium, magnesium, alumi
 APXS can also detect traces of important elements that takes part in different salts; sulfur, chlorine and bromide.
 These trace elements can be a sign of former interactions with water.
 
-Etter at APXS har sett på prøvene tar Curiosity videre valg om hvordan typer testen den skal foreta seg videre.
-Informasjonen fra APXS sine prøver brukes også til å kartlegge hvordan steinformasjonene i områdene nær roveren kan ha utviklet seg.
+After APXS has studied the samples Curiosity decides if any others tests should be conducted.
+The information from APXS is also used to figure out how the stone formations in the area close to the rover could have formed and changed over time.
 
-Som kilde til alfapartikler og røntgenstråling brukes det radioaktive stoffet curium (Cm$^{244}$).
-Dette har en halveringstid på 18.1 år, noe som passer godt med langvarige oppdrag.
-Selv etter over syv år vil man ha en kilde uten nevneverdig lavere aktivitet.
+The radioactive element curium (Cm$^{244}$) is used as a source for the alpha particles.
+The element has a half time of 18.1 years, which suits this kind of long term mission.
+Even after more than seven years the decrease in activity will be negligible.
+
+
+
 
 Etter at roverene Spirit og Opportunity bruke APXS ble teknologien videreutviklet, og Curiosity har nå blant annet muligheten til å ta raskere og klarere målinger samt jobbe på dagtid.
 Målingene kan tas raskere og klarere av to grunner.
@@ -97,21 +40,16 @@ Dette ble blant annet gjort med salte jordprøver tatt av Spirit i Gusevkrateret
 Opp gjennom historien har APXS gitt mye informasjon om forholdene og sammensetningen av mineralene på Mars.
 Dette er nok en av grunnene til at det fortsatt jobbes med å utvikle forbedringer av instrumentet, og at det har vært med på samtlige rovere sendt til den røde planeten.
 
-\section*{Kilder}
-
-\begin{thebibliography}{99}	% Denne referanselisten kan ikke ha flere enn 99 referanser.
-	\bibitem{Exoboken}
-		Kjetill Ødegaard
-		\emph{Exobiology: A hitch-hiker's guide to alien life}
-		Institutt for bioteknologi,
-		NTNU,
-		2000.
-	\bibitem{NASA-rover}
-		NASA,
-		\emph{Mars Science Laboratory Launch}
-		Press kit,
-		November 2011.
-\end{thebibliography}
 
 
-\end{document}
+\bibitem{Exoboken}
+	Kjetill Ødegaard
+	\emph{Exobiology: A hitch-hiker's guide to alien life}
+	Institutt for bioteknologi,
+	NTNU,
+	2000.
+\bibitem{NASA-rover}
+	NASA,
+	\emph{Mars Science Laboratory Launch}
+	Press kit,
+	November 2011.
