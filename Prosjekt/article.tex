@@ -58,6 +58,8 @@
 \renewcommand{\headrulewidth}{0.0pt} % No header rule
 \renewcommand{\footrulewidth}{0.4pt} % Thin footer rule
 
+\fancyfootoffset{0mm}
+
 \usepackage{lettrine} % Package to accentuate the first letter of the text
 \newcommand{\initial}[1]{ % Defines the command and style for the first letter
 \lettrine[lines=2,lhang=0.3,nindent=0em]{
@@ -154,13 +156,13 @@ bottom=20mm}
 
 \input{"Part1_The_history_of_biology_and_astronomy/astronomical_history.tex"}
 
-\input{"Part1_The_history_of_biology_and_astronomy/wow_signal_box.tex"}
+%\input{"Part1_The_history_of_biology_and_astronomy/wow_signal_box.tex"}
 
 %------------------------------------------------
-
 \end{multicols}
-\pagebreak
+
 \section*{Physics crash course}
+
 \begin{multicols}{2}
 
 \input{"Part1_The_history_of_biology_and_astronomy/Entropy.tex"}
@@ -171,11 +173,21 @@ bottom=20mm}
 
 %------------------------------------------------
 
+\end{multicols}
+
+\section*{Defining life - 5 criteria}
+\begin{multicols}{2}
 \input{"Part2_Life_on_Mars_and_the_search/Life/critlife.tex"}
 
 % Biology crash course
 
 % How life could have started
+
+\end{multicols}
+
+\section*{Water}
+
+\begin{multicols}{2}
 
 \input{"Part2_Life_on_Mars_and_the_search/Water/water.tex"}
 
@@ -187,7 +199,11 @@ bottom=20mm}
 
 %------------------------------------------------
 
+\pagebreak
+
+\end{multicols}
 \section*{How does Curiosity search for water?}
+\begin{multicols}{2}
 
 \input{"Part2_Life_on_Mars_and_the_search/Rover/ChemCam.tex"}
 
@@ -205,7 +221,11 @@ bottom=20mm}
 
 %------------------------------------------------
 
+\end{multicols}
+
 \section*{Plans for the near future}
+
+\begin{multicols}{2}
 
 % Super ball bot?
 
@@ -219,7 +239,11 @@ bottom=20mm}
 
 %------------------------------------------------
 
+\end{multicols}
+
 \section*{What is life, REALLY?}
+
+\begin{multicols}{2}
 
 % AI
 
