@@ -18,8 +18,10 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 
-\documentclass[DIV=calc, paper=a4, fontsize=12pt, twocolumn]{scrartcl}	 % A4 paper and 12pt font size
+\documentclass[DIV=calc, paper=a4, fontsize=12pt]{scrartcl}	 % A4 paper and 12pt font size
+\usepackage[margin=16mm]{geometry}
 
+\usepackage{multicol}
 \usepackage{sectsty} % Enables custom section titles
 \usepackage{minitoc}
 %\usepackage{multicol} %Enables multiple columns and additional commands
@@ -105,7 +107,6 @@ Norges Tekniske og Naturvitenskaplige Universitet % Your institution
 %----------------------------------------------------------------------------------------
 
 \begin{document}
-
 \maketitle % Print the title
 
 \thispagestyle{fancy} % Enabling the custom headers/footers for the first page 
@@ -120,6 +121,8 @@ Norges Tekniske og Naturvitenskaplige Universitet % Your institution
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
+
+\begin{multicols}{2}
 
 \section*{Introduction}
 \input{"Introduksjon/human_curiousity.tex"}
@@ -202,13 +205,12 @@ Norges Tekniske og Naturvitenskaplige Universitet % Your institution
 
 % Simulation
 
+\end{multicols}
+
 %----------------------------------------------------------------------------------------
 %	REFERENCE LIST
 %----------------------------------------------------------------------------------------
-\pagebreak
-
 \onecolumn
-
 \input{"Kilder.tex"}
 
 %----------------------------------------------------------------------------------------
