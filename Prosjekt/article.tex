@@ -36,6 +36,7 @@
 \usepackage{fix-cm}	 % Custom font sizes - used for the initial letter in the document
 \usepackage{graphicx} %Use graphics and figures			
 \usepackage{gensymb} %More symbols
+\usepackage{float}
 
 \allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
 
@@ -97,7 +98,7 @@ Norges Tekniske og Naturvitenskaplige Universitet % Your institution
 
 \sectionfont{\Large \MakeUppercase}
 
-\subsectionfont{\normalfont \small \MakeUppercase}
+\subsectionfont{\normalfont \MakeUppercase}
 
 %----------------------------------------------------------------------------------------
 %	TEXT
@@ -119,6 +120,8 @@ bottom=20mm}
 %----------------------------------------------------------------------------------------
 
 \graphicspath{{images/}}
+\floatstyle{boxed}
+\restylefloat{figure}
 
 %----------------------------------------------------------------------------------------
 
@@ -156,7 +159,7 @@ bottom=20mm}
 
 \input{"Part1_The_history_of_biology_and_astronomy/astronomical_history.tex"}
 
-%\input{"Part1_The_history_of_biology_and_astronomy/wow_signal_box.tex"}
+\input{"Part1_The_history_of_biology_and_astronomy/wow_signal_box.tex"}
 
 %------------------------------------------------
 \end{multicols}
@@ -176,11 +179,27 @@ bottom=20mm}
 \end{multicols}
 
 \section*{Defining life - 5 criteria}
+
 \begin{multicols}{2}
+
 \input{"Part2_Life_on_Mars_and_the_search/Life/critlife.tex"}
 \input{"Part2_Life_on_Mars_and_the_search/Life/Life_forms_on_Earth.tex"}
 
-% Biology crash course
+\end{multicols}
+
+\section*{Biology crash course}
+
+\begin{multicols}{2}
+
+\input{"Part2_Life_on_Mars_and_the_search/Life/sekjson_livets_byggestener.tex"}
+
+\end{multicols}
+
+\section*{Origins of life on Earth}
+
+\begin{multicols}{2}
+
+\input{"Part2_Life_on_Mars_and_the_search/Life/seksjon_livets_oppstandelse.tex"}
 
 % How life could have started
 
@@ -196,7 +215,7 @@ bottom=20mm}
 
 \input{"Part2_Life_on_Mars_and_the_search/Rover/factbox_rover.tex"}
 
-% Landing the rover
+\input{"Part2_Life_on_Mars_and_the_search/Rover/EDL.tex"}
 
 %------------------------------------------------
 
