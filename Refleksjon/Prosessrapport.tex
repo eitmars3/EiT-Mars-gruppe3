@@ -27,7 +27,7 @@
 %\usepackage{multicol} %Enables multiple columns and additional commands
 \usepackage[utf8]{inputenc}
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-\usepackage[norsk]{babel} % English language/hyphenation
+\usepackage[english]{babel} % English language/hyphenation
 \usepackage[protrusion=true,expansion=true]{microtype} % Better typography
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
 \usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
@@ -36,6 +36,8 @@
 \usepackage{fix-cm}	 % Custom font sizes - used for the initial letter in the document
 \usepackage{graphicx} %Use graphics and figures			
 \usepackage{gensymb} %More symbols
+\usepackage{float}
+\usepackage{fixltx2e}
 
 \allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
 
@@ -76,7 +78,7 @@
 
 \pretitle{\vspace{-30pt} \begin{flushleft} \HorRule \fontsize{22}{30} \usefont{OT1}{phv}{b}{n} \color{DarkBlue} \selectfont} % Horizontal rule before the title
 
-\title{Eksperter i Team \\ Biologisk skattejakt på planeten Mars \\ Prosessrapport gruppe 3} % Your article title
+\title{Biologisk skattejakt på planteten Mars \\ Prosessrapport \\ Gruppe 3} % Your article title
 
 \posttitle{\par\end{flushleft}\vskip 0.5em} % Whitespace under the title
 
@@ -97,14 +99,14 @@ Norges Tekniske og Naturvitenskaplige Universitet % Your institution
 
 \sectionfont{\Large \MakeUppercase}
 
-\subsectionfont{\normalfont \small \MakeUppercase}
+\subsectionfont{\normalfont \MakeUppercase}
 
 %----------------------------------------------------------------------------------------
 %	TEXT
 %----------------------------------------------------------------------------------------
 
 \setlength{\columnsep}{32pt}
-\linespread{1.3}
+\linespread{1.2}
 
 \geometry{
 a4paper,
@@ -118,7 +120,9 @@ bottom=20mm}
 %	IMAGES
 %----------------------------------------------------------------------------------------
 
-\graphicspath{{images/}}
+\graphicspath{{Bilder/}}
+\floatstyle{boxed}
+\restylefloat{figure}
 
 %----------------------------------------------------------------------------------------
 
@@ -133,30 +137,21 @@ bottom=20mm}
 
 % The first character should be within \initial{}
 
-
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
-\section{Forord}
+\section*{Forord}
 
 \begin{multicols}{2}
 
-%\input{"Introduksjon/human_curiousity.tex"}
+\input{"Test.tex"}
 
 \end{multicols}
 
 %----------------------------------------------------------------------------------------
 
-\section{Sammendrag}
-
-\begin{multicols}{2}
-
-\end{multicols}
-
-%----------------------------------------------------------------------------------------
-
-\section{Innholdsfortegnelse}
+\section*{Sammendrag}
 
 \begin{multicols}{2}
 
@@ -164,6 +159,15 @@ bottom=20mm}
 
 %----------------------------------------------------------------------------------------
 
+\pagebreak
+\renewcommand{\contentsname}%
+	{Innhold}
+
+\tableofcontents
+
+%----------------------------------------------------------------------------------------
+
+\pagebreak
 \section{Innledning}
 
 \begin{multicols}{2}
@@ -201,6 +205,8 @@ bottom=20mm}
 \section{Gruppeutvikling}
 
 \begin{multicols}{2}
+
+\input{"kompetansetrekant.tex"}
 
 \end{multicols}
 
