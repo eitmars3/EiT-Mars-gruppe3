@@ -65,7 +65,7 @@
 \usepackage{lettrine} % Package to accentuate the first letter of the text
 \newcommand{\initial}[1]{ % Defines the command and style for the first letter
 \lettrine[lines=2,lhang=0.3,nindent=0em]{
-\color{DarkRed}
+\color{DarkBlue}
 {\textsf{#1}}}{}}
 
 %----------------------------------------------------------------------------------------
@@ -132,12 +132,16 @@ bottom=20mm}
 \thispagestyle{fancy} % Enabling the custom headers/footers for the first page 
 
 %----------------------------------------------------------------------------------------
+%	ABSTRACT
+%----------------------------------------------------------------------------------------
+
+% The first character should be within \initial{}
+
+%----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
-\pagebreak
-
-\section{Forord}
+\section*{Forord}
 
 \begin{multicols}{2}
 
@@ -147,7 +151,7 @@ bottom=20mm}
 
 %----------------------------------------------------------------------------------------
 
-\section{Sammendrag}
+\section*{Sammendrag}
 
 \begin{multicols}{2}
 
@@ -155,14 +159,15 @@ bottom=20mm}
 
 %----------------------------------------------------------------------------------------
 
-\section{Innholdsfortegnelse}
+\pagebreak
+\renewcommand{\contentsname}%
+	{Innhold}
 
-\begin{multicols}{2}
-
-\end{multicols}
+\tableofcontents
 
 %----------------------------------------------------------------------------------------
 
+\pagebreak
 \section{Innledning}
 
 \begin{multicols}{2}
