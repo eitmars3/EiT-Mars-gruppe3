@@ -27,7 +27,7 @@
 %\usepackage{multicol} %Enables multiple columns and additional commands
 \usepackage[utf8]{inputenc}
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-\usepackage[norsk]{babel} % English language/hyphenation
+\usepackage[english]{babel} % English language/hyphenation
 \usepackage[protrusion=true,expansion=true]{microtype} % Better typography
 \usepackage{amsmath,amsfonts,amsthm} % Math packages
 \usepackage[svgnames]{xcolor} % Enabling colors by their 'svgnames'
@@ -65,7 +65,7 @@
 \usepackage{lettrine} % Package to accentuate the first letter of the text
 \newcommand{\initial}[1]{ % Defines the command and style for the first letter
 \lettrine[lines=2,lhang=0.3,nindent=0em]{
-\color{DarkBlue}
+\color{DarkRed}
 {\textsf{#1}}}{}}
 
 %----------------------------------------------------------------------------------------
@@ -78,7 +78,7 @@
 
 \pretitle{\vspace{-30pt} \begin{flushleft} \HorRule \fontsize{22}{30} \usefont{OT1}{phv}{b}{n} \color{DarkBlue} \selectfont} % Horizontal rule before the title
 
-\title{Prosessrapport \\ Biologisk skattejakt på planeten Mars \\ Gruppe 3} % Your article title
+\title{Biologisk skattejakt på planteten Mars \\ Prosessrapport \\ Gruppe 3} % Your article title
 
 \posttitle{\par\end{flushleft}\vskip 0.5em} % Whitespace under the title
 
@@ -132,18 +132,6 @@ bottom=20mm}
 \thispagestyle{fancy} % Enabling the custom headers/footers for the first page 
 
 %----------------------------------------------------------------------------------------
-%	ABSTRACT
-%----------------------------------------------------------------------------------------
-
-% The first character should be within \initial{}
-
-%----------------------------------------------------------------------------------------
-%	TABLE OF CONTENTS
-%----------------------------------------------------------------------------------------
-
-\tableofcontents
-
-%----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
@@ -153,7 +141,7 @@ bottom=20mm}
 
 \begin{multicols}{2}
 
-%\input{".tex"}
+\input{"Test.tex"}
 
 \end{multicols}
 
@@ -187,7 +175,7 @@ bottom=20mm}
 
 \begin{multicols}{2}
 
-%\input{"Landsbyen_og_gruppa/Jonas.tex"}
+\input{"Landsbyen_og_gruppa/Jonas.tex"}
 
 \end{multicols}
 
@@ -212,6 +200,8 @@ bottom=20mm}
 \section{Gruppeutvikling}
 
 \begin{multicols}{2}
+
+\input{"kompetansetrekant.tex"}
 
 \end{multicols}
 
