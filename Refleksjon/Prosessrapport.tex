@@ -36,6 +36,8 @@
 \usepackage{fix-cm}	 % Custom font sizes - used for the initial letter in the document
 \usepackage{graphicx} %Use graphics and figures			
 \usepackage{gensymb} %More symbols
+\usepackage{float}
+\usepackage{fixltx2e}
 
 \allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
 
@@ -76,7 +78,7 @@
 
 \pretitle{\vspace{-30pt} \begin{flushleft} \HorRule \fontsize{22}{30} \usefont{OT1}{phv}{b}{n} \color{DarkBlue} \selectfont} % Horizontal rule before the title
 
-\title{Eksperter i Team \\ Biologisk skattejakt på planeten Mars \\ Prosessrapport gruppe 3} % Your article title
+\title{Prosessrapport \\ Biologisk skattejakt på planeten Mars \\ Gruppe 3} % Your article title
 
 \posttitle{\par\end{flushleft}\vskip 0.5em} % Whitespace under the title
 
@@ -97,14 +99,14 @@ Norges Tekniske og Naturvitenskaplige Universitet % Your institution
 
 \sectionfont{\Large \MakeUppercase}
 
-\subsectionfont{\normalfont \small \MakeUppercase}
+\subsectionfont{\normalfont \MakeUppercase}
 
 %----------------------------------------------------------------------------------------
 %	TEXT
 %----------------------------------------------------------------------------------------
 
 \setlength{\columnsep}{32pt}
-\linespread{1.3}
+\linespread{1.2}
 
 \geometry{
 a4paper,
@@ -118,7 +120,9 @@ bottom=20mm}
 %	IMAGES
 %----------------------------------------------------------------------------------------
 
-\graphicspath{{images/}}
+\graphicspath{{Bilder/}}
+\floatstyle{boxed}
+\restylefloat{figure}
 
 %----------------------------------------------------------------------------------------
 
@@ -133,16 +137,23 @@ bottom=20mm}
 
 % The first character should be within \initial{}
 
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+\tableofcontents
 
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
+\pagebreak
+
 \section{Forord}
 
 \begin{multicols}{2}
 
-%\input{"Introduksjon/human_curiousity.tex"}
+%\input{".tex"}
 
 \end{multicols}
 
@@ -176,7 +187,7 @@ bottom=20mm}
 
 \begin{multicols}{2}
 
-\input{"Landsbyen_og_gruppa/Jonas.tex"}
+%\input{"Landsbyen_og_gruppa/Jonas.tex"}
 
 \end{multicols}
 
