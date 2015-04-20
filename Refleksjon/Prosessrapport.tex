@@ -37,6 +37,7 @@
 \usepackage{gensymb} %More symbols
 \usepackage{float}
 \usepackage{fixltx2e}
+\usepackage[toc,page]{appendix}
 
 \allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
 
@@ -124,6 +125,13 @@ bottom=20mm}
 \restylefloat{figure}
 
 %----------------------------------------------------------------------------------------
+%	APPENDIX
+%----------------------------------------------------------------------------------------
+
+\renewcommand\appendixpagename{Vedlegg}
+\renewcommand\appendixtocname{Vedlegg}
+
+%----------------------------------------------------------------------------------------
 
 \begin{document}
 \maketitle % Print the title
@@ -167,6 +175,8 @@ bottom=20mm}
 
 \pagebreak
 \section{Innledning}
+
+\input{Innledning/innledning.tex}
 
 \begin{multicols}{2}
 
@@ -256,5 +266,11 @@ bottom=20mm}
 }
 
 %----------------------------------------------------------------------------------------
+%	APPENDIX
+%----------------------------------------------------------------------------------------
+
+\pagebreak
+
+\input{appendix.tex}
 
 \end{document}
