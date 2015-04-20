@@ -37,6 +37,7 @@
 \usepackage{gensymb} %More symbols
 \usepackage{float}
 \usepackage{fixltx2e}
+\usepackage[toc,page]{appendix}
 
 \allsectionsfont{\usefont{OT1}{phv}{b}{n}} % Change the font of all section commands
 
@@ -122,6 +123,13 @@ bottom=20mm}
 \graphicspath{{Bilder/}}
 \floatstyle{boxed}
 \restylefloat{figure}
+
+%----------------------------------------------------------------------------------------
+%	APPENDIX
+%----------------------------------------------------------------------------------------
+
+\renewcommand\appendixpagename{Vedlegg}
+\renewcommand\appendixtocname{Vedlegg}
 
 %----------------------------------------------------------------------------------------
 
@@ -256,5 +264,11 @@ bottom=20mm}
 }
 
 %----------------------------------------------------------------------------------------
+%	APPENDIX
+%----------------------------------------------------------------------------------------
+
+\pagebreak
+
+\input{appendix.tex}
 
 \end{document}
