@@ -344,6 +344,6 @@ sympy-plots-for-*.tex/
 *.maf
 *.mtc
 *.mtc0
-#*.pdf
+*.pdf
 *.spl
 *.gz
