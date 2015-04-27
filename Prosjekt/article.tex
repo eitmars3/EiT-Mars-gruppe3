@@ -101,6 +101,8 @@ Norges Tekniske og Naturvitenskaplige Universitet % Your institution
 
 \subsectionfont{\normalfont \MakeUppercase}
 
+\setcounter{secnumdepth}{0}
+
 %----------------------------------------------------------------------------------------
 %	TEXT
 %----------------------------------------------------------------------------------------
@@ -137,24 +139,23 @@ bottom=20mm}
 
 \input{Introduksjon/forord.tex}
 
-
-% The first character should be within \initial{}
-
 %----------------------------------------------------------------------------------------
 %	TABLE OF CONTENTS
 %----------------------------------------------------------------------------------------
 
+\pagebreak
 \tableofcontents
 
 %----------------------------------------------------------------------------------------
 %	ARTICLE CONTENTS
 %----------------------------------------------------------------------------------------
 
-\section*{Introduction}
+\pagebreak
+\section{Introduction}
 
 \begin{multicols}{2}
 
-\input{"Introduksjon/human_curiousity.tex"}
+\input{Introduksjon/human_curiousity.tex}
 
 \end{multicols}
 
@@ -162,50 +163,42 @@ bottom=20mm}
 
 \pagebreak
 
-\section*{The history of astronomy and biology}
+\section{The history of astronomy and biology}
 
 \begin{multicols}{2}
 
-\input{"Part1_The_history_of_biology_and_astronomy/astronomical_history.tex"}
+\input{Part1_The_history_of_biology_and_astronomy/astronomical_history.tex}
 
 \end{multicols}
 
-\input{"Part1_The_history_of_biology_and_astronomy/wow_signal_box.tex"}
+\input{Part1_The_history_of_biology_and_astronomy/wow_signal_box.tex}
 
 \begin{multicols}{2}
 
 %------------------------------------------------
 \end{multicols}
 
-\section*{Physics crash course}
+\section{Physics crash course}
 
 \begin{multicols}{2}
 
+<<<<<<< HEAD
 \input{"Part1_The_history_of_biology_and_astronomy/crashcourse_intro.tex"}
 
 \input{"Part1_The_history_of_biology_and_astronomy/Entropy.tex"}
+=======
+\input{Part1_The_history_of_biology_and_astronomy/Entropy.tex}
+>>>>>>> origin/master
 
-\input{"Part1_The_history_of_biology_and_astronomy/Spectroscopy.tex"}
+\input{Part1_The_history_of_biology_and_astronomy/Spectroscopy.tex}
 
-% Diffraction
-
-%------------------------------------------------
-
-\end{multicols}
-
-\section*{Defining life - 5 criteria}
-
-\begin{multicols}{2}
-
-\input{"Part2_Life_on_Mars_and_the_search/Life/critlife.tex"}
-
-\input{"Part2_Life_on_Mars_and_the_search/Life/Life_forms_on_Earth.tex"}
+\input{Part1_The_history_of_biology_and_astronomy/Diffraction.tex}
 
 \end{multicols}
 
 %------------------------------------------------
 
-\section*{Biology crash course}
+\section{Biology crash course}
 
 \begin{multicols}{2}
 
@@ -215,27 +208,37 @@ bottom=20mm}
 
 %------------------------------------------------
 
-\section*{Origins of life on Earth}
+\section{Origins of life}
 
 \begin{multicols}{2}
 
 \input{"Part2_Life_on_Mars_and_the_search/Life/seksjon_livets_oppstandelse.tex"}
 
+\input{"Part2_Life_on_Mars_and_the_search/Life/Life_forms_on_Earth.tex"}
+
 \end{multicols}
 
 %------------------------------------------------
 
-\section*{Water}
+\section{Defining life}
 
 \begin{multicols}{2}
 
-\input{"Part2_Life_on_Mars_and_the_search/Water/water.tex"}
+\input{"Part2_Life_on_Mars_and_the_search/Life/critlife.tex"}
 
 \end{multicols}
 
-{\input{"Part2_Life_on_Mars_and_the_search/Rover/factbox_mars.tex"}
+%------------------------------------------------
 
-\input{"Part2_Life_on_Mars_and_the_search/Rover/factbox_rover.tex"}}
+\section{Water}
+
+\begin{multicols}{2}
+
+\input{Part2_Life_on_Mars_and_the_search/Water/water.tex}
+
+\end{multicols}
+
+{\input{Part2_Life_on_Mars_and_the_search/Rover/factbox_mars.tex}
 
 %\begin{multicols}{2}
 
@@ -243,7 +246,7 @@ bottom=20mm}
 
 %------------------------------------------------
 
-%\section*{Entry, decent and landing (EDL)}
+%\section{Entry, decent and landing (EDL)}
 
 %\begin{multicols}{2}
 
@@ -255,19 +258,23 @@ bottom=20mm}
 
 %------------------------------------------------
 
-\section*{How does Curiosity search for water?}
+\section{Curiosity}
+
+\input{Part2_Life_on_Mars_and_the_search/Rover/factbox_rover.tex}
+
+\section{How does Curiosity search for water?}
 
 \begin{multicols}{2}
 
-\input{"Part2_Life_on_Mars_and_the_search/Rover/ChemCam.tex"}
+\input{Part2_Life_on_Mars_and_the_search/Rover/ChemCam.tex}
 
-\input{"Part2_Life_on_Mars_and_the_search/Rover/CheMin.tex"}
+\input{Part2_Life_on_Mars_and_the_search/Rover/CheMin.tex}
 
-\input{"Part2_Life_on_Mars_and_the_search/Rover/Search_for_water/Alpha_Particle_X-ray_Spectrometer.tex"}
+\input{Part2_Life_on_Mars_and_the_search/Rover/Search_for_water/Alpha_Particle_X-ray_Spectrometer.tex}
 
-\input{"Part2_Life_on_Mars_and_the_search/Rover/Search_for_water/Dynamic_Albedo_of_Neutrons_(DAN).tex"}
+\input{Part2_Life_on_Mars_and_the_search/Rover/Search_for_water/Dynamic_Albedo_of_Neutrons_(DAN).tex}
 
-\input{"Part2_Life_on_Mars_and_the_search/Rover/RAD.tex"}
+\input{Part2_Life_on_Mars_and_the_search/Rover/RAD.tex}
 
 %\end{multicols}
 
@@ -282,13 +289,13 @@ bottom=20mm}
 
 %------------------------------------------------
 
-\input{"Part2_Life_on_Mars_and_the_search/Rover/FactboxEDL.tex"}
+\input{Part2_Life_on_Mars_and_the_search/Rover/FactboxEDL.tex}
 
-\section*{Plans for the near future}
+\section{Plans for the near future}
 
 \begin{multicols}{2}
 
-\input{"Part3_Searching_in_the_future/futureplans.tex"}
+\input{Part3_Searching_in_the_future/futureplans.tex}
 
 % Super ball bot?
 
@@ -298,11 +305,11 @@ bottom=20mm}
 
 \end{multicols}
 
-\section*{Other forms of life}
+\section{Other forms of life}
 
 \begin{multicols}{2}
 
-\input{"Part3_Searching_in_the_future/otherlifeforms.tex"}
+\input{Part3_Searching_in_the_future/otherlifeforms.tex}
 
 \end{multicols}
 
@@ -318,7 +325,7 @@ bottom=20mm}
 
 % AI
 
-% Multiverses
+\input{Part3_Searching_in_the_future/multiverse.tex}
 
 % Game theory
 
