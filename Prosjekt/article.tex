@@ -94,12 +94,8 @@ Norges Tekniske og Naturvitenskaplige Universitet % Your institution
 \date{} % Add a date here if you would like one to appear underneath the title block
 
 %----------------------------------------------------------------------------------------
-%	SECTION TITLE
+%	SECTION STYLE
 %----------------------------------------------------------------------------------------
-
-\sectionfont{\Large \MakeUppercase}
-
-\subsectionfont{\normalfont \MakeUppercase}
 
 \setcounter{secnumdepth}{0}
 
@@ -161,22 +157,19 @@ bottom=20mm}
 
 %------------------------------------------------
 
-\pagebreak
-
 \section{The history of astronomy and biology}
 
 \begin{multicols}{2}
 
 \input{Part1_The_history_of_biology_and_astronomy/astronomical_history.tex}
 
-\end{multicols} \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+\hspace{5mm}
 
 \input{Part1_The_history_of_biology_and_astronomy/wow_signal_box.tex}
 
-\begin{multicols}{2}
+\end{multicols}
 
 %------------------------------------------------
-\end{multicols} \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
 
 \section{Physics crash course}
 
@@ -220,6 +213,14 @@ bottom=20mm}
 
 \input{"Part2_Life_on_Mars_and_the_search/Life/critlife.tex"}
 
+\end{multicols}
+
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+
+\section{Life forms on Earth}
+
+\begin{multicols}{2}
+
 \input{"Part2_Life_on_Mars_and_the_search/Life/Life_forms_on_Earth.tex"}
 
 \end{multicols} \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
@@ -233,8 +234,6 @@ bottom=20mm}
 \input{Part2_Life_on_Mars_and_the_search/Water/water.tex}
 
 \end{multicols} \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
-
-{\input{Part2_Life_on_Mars_and_the_search/Rover/factbox_mars.tex}
 
 %\begin{multicols}{2}
 
@@ -256,11 +255,19 @@ bottom=20mm}
 
 \section{Curiosity}
 
+\begin{multicols}{2}
+
+\input{Part2_Life_on_Mars_and_the_search/Rover/Curiosity.tex}
+
+\end{multicols}
+
 \input{Part2_Life_on_Mars_and_the_search/Rover/factbox_rover.tex}
 
 \section{How does Curiosity search for water?}
 
 \begin{multicols}{2}
+
+\input{Part2_Life_on_Mars_and_the_search/Rover/Curiosity_water.tex}
 
 \input{Part2_Life_on_Mars_and_the_search/Rover/ChemCam.tex}
 
@@ -272,20 +279,15 @@ bottom=20mm}
 
 \input{Part2_Life_on_Mars_and_the_search/Rover/RAD.tex}
 
-%\end{multicols} \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+\end{multicols}
 
-% Faktaboks flytta til futureplans.tex
-%{\input{"Part3_Searching_in_the_future/factbox_dangers.tex"}}
-
-%\begin{multicols}{2}
-
-% Other current space missions
-
-\end{multicols} \noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}
+\section{Mars, the Red Planet}
 
 %------------------------------------------------
 
 \input{Part2_Life_on_Mars_and_the_search/Rover/FactboxEDL.tex}
+
+{\input{Part2_Life_on_Mars_and_the_search/Rover/factbox_mars.tex}
 
 \section{Plans for the near future}
 
@@ -317,13 +319,7 @@ bottom=20mm}
 
 \input{"Part3_Searching_in_the_future/What_is_life_really.tex"}
 
-% AI
-
 \input{Part3_Searching_in_the_future/multiverse.tex}
-
-% Game theory
-
-% Simulation
 
 \input{"Conclusion/conclusion.tex"}
 
